@@ -186,8 +186,8 @@ model:
       last_epoch: -1
 
 trainer:
-  gpus: 0 # number of gpus
-  max_epochs: 5
+  gpus: 1 # number of gpus
+  max_epochs: 50
   max_steps: null # computed at runtime if not set
   num_nodes: 1
   accelerator: ddp
